@@ -12,7 +12,7 @@ wget https://github.com/deepmind/mujoco/releases/download/2.3.2/mujoco-2.3.2-lin
 tar -xvf mujoco-2.3.2-linux-x86_64.tar.gz
 
 # python packages
-# pip install requirements.txt
+# pip install -r requirements.txt
 
 # CUDA 11 installation
 # Note: wheels only available on linux.
