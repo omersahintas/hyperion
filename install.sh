@@ -9,7 +9,7 @@ python3 -m pip install --no-cache-dir --upgrade pipenv
 mkdir ~/.mujoco
 cd ~/.mujoco
 wget https://github.com/deepmind/mujoco/releases/download/2.3.2/mujoco-2.3.2-linux-x86_64.tar.gz
-tar -xvf mujoco210-linux-x86_64.tar.gz
+tar -xvf mujoco-2.3.2-linux-x86_64.tar.gz
 
 # python packages
 # pip install requirements.txt
