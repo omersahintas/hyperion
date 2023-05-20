@@ -23,5 +23,6 @@ pipenv shell
 ## Remarks
 
 * If you have space constraints, use a Python image instead of Ubuntu 20.04.
-* To replace JAX with CUDA 11, after activating virtualenv enter:
-  * `pip install jax[cuda11_pip]==0.4.6 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html`
+* To replace JAX with CUDA 12, after activating virtualenv enter:
+  * `pip install jax[cuda12_pip]==0.4.10 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html`
+  * This pipenv entry must be revised: `jax = {version = "==0.4.10", file = "https://storage.googleapis.com/jax-releases/jax_cuda_releases.html", extras = ["cuda12_pip"]}`

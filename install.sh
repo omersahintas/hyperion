@@ -11,7 +11,7 @@ mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
 apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub
 add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
 apt update
-apt install -y cuda-toolkit-11-8
+apt install -y cuda-toolkit-12-1
 
 # install mujoco binaries
 mkdir ~/.mujoco

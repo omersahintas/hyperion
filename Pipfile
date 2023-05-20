@@ -45,7 +45,7 @@ gym = "~=0.26.2"
 stable-baselines = "~=2.10.2"
 jaxlib = "==0.4.10"
 jupyterlab = "~=4.0.0"
-jax = "==0.4.6"
+jax = "==0.4.10"
 
 [dev-packages]
 
