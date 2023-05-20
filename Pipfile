@@ -43,6 +43,8 @@ dm-acme = "~=0.4.0"
 dm-control = "~=1.0.12"
 gym = "~=0.26.2"
 stable-baselines = "~=2.10.2"
+jaxlib = "~=0.4.10"
+jupyterlab = "~=4.0.0"
 
 [dev-packages]
 
