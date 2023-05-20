@@ -23,6 +23,5 @@ tar -xvf mujoco-2.3.2-linux-x86_64.tar.gz
 # pip install -r requirements.txt
 
 # JAX w/ CUDA 11 installation
-# Note: wheels only available on linux.
 pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 
