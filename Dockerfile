@@ -9,7 +9,8 @@ RUN apt update && apt dist-upgrade -y && DEBIAN_FRONTEND=noninteractive apt inst
     bash-completion \
     git \
     nano \
-    wget
+    wget \
+    software-properties-common
 
 RUN useradd --create-home --groups sudo --shell /bin/bash developer \
     --uid 1002 --user-group \
