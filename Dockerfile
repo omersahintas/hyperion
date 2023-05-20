@@ -2,9 +2,8 @@ ARG BASE_IMAGE
 ARG BASE_VERSION
 
 FROM ${BASE_IMAGE}:${BASE_VERSION} AS development
-ARG DEVEL_DEPS=sudo build-essential git nano bash-completion
 
-RUN apt update && apt dist-upgrade -y && apt install -y ${DEVEL_DEPS}
+RUN apt update && apt dist-upgrade -y && apt install -y sudo build-essential bash-completion git nano
 
 RUN useradd --create-home --groups sudo --shell /bin/bash developer \
     --uid 1000 --user-group \
