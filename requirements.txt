@@ -1,0 +1,47 @@
+# baselines
+setuptools~=65.6.3  
+requests~=2.28.2
+markdown~=3.4.3
+pickleshare~=0.7.5
+black~=23.1.0
+scipy~=1.10.1
+matplotlib~=3.6.2
+seaborn~=0.12.2
+psutil~=5.9.4
+networkx~=2.8.8
+tqdm~=4.64.1
+colorama~=0.3.7
+simplejson~=3.16.0
+pandas~=1.5.3
+PyYAML~=6.0
+Werkzeug~=2.2.3
+moviepy~=1.0.3
+cffi~=1.15.1
+plotly~=5.14.1
+
+# ml-tools
+protobuf~=3.19.5     # to avoid dep conflict with tensorboard & googleapis-common-protos
+scikit-learn~=1.2.1
+wandb~=0.13.10
+optuna~=3.1.1
+torch==2.0.1
+torchvision~=0.15.2
+torchtext==0.15.2
+pytorch-lightning~=1.9.3
+lightning~=2.0.2
+tensorboardX~=2.5.1
+tensorboard~=2.13.0
+torch-tb-profiler~=0.4.1
+pytorch-ignite~=0.4.12
+opencv-python~=4.7.0.72
+spacy~=3.5.3
+jupyterlab~=4.0.0
+
+# rl-tools
+autorom~=0.4.2
+ale-py~=0.8.1
+dm-acme~=0.4.0
+dm-control~=1.0.12
+gym~=0.26.2
+stable_baselines~=2.10.2  # 1.7.0 requires gym==0.21.0 
+# garage  #! # requires torch==1.7.1 
