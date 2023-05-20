@@ -20,4 +20,8 @@ After building the project, open a new terminal and activate project's virtualen
 pipenv shell
 ```
 
-P.S. If you have space constraints, use a Python image instead of Ubuntu 20.04.
+## Remarks
+
+* If you have space constraints, use a Python image instead of Ubuntu 20.04.
+* To replace JAX with CUDA 11, after activating virtualenv enter:
+  * `pip install jax[cuda11_pip]==0.4.6 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html`

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "93cdf71a82351b6bfa27a903e2d84971b1ce8e0ec06b3fe88ecdaeb507889bd1"
+            "sha256": "0b4e1ba462353af9da5c632d7c5289b2c36cc1435bc563e5eb2f0a993b497b8a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1259,6 +1259,13 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.1.2"
         },
+        "jax": {
+            "hashes": [
+                "sha256:d06ea8fba4ed315ec55110396058cb48c8edb2ab0b412f28c8a123beee9e58ab"
+            ],
+            "index": "pypi",
+            "version": "==0.4.6"
+        },
         "jaxlib": {
             "hashes": [
                 "sha256:07557fcf1e4c7c60bbb48c4f4f426909fcf610a7bfa56cbb139719ba3900722d",
@@ -2159,6 +2166,14 @@
             ],
             "index": "pypi",
             "version": "==4.7.0.72"
+        },
+        "opt-einsum": {
+            "hashes": [
+                "sha256:2455e59e3947d3c275477df7f5205b30635e266fe6dc300e3d9f9646bfcea147",
+                "sha256:59f6475f77bbc37dcf7cd748519c0ec60722e91e63ca114e68821c0c54a46549"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==3.3.0"
         },
         "optuna": {
             "hashes": [
