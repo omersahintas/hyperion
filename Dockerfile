@@ -3,8 +3,6 @@ ARG BASE_VERSION
 
 FROM ${BASE_IMAGE}:${BASE_VERSION} AS development
 
-SHELL ["/bin/bash", "-c"]
-
 RUN apt update && apt dist-upgrade -y && apt install -y sudo build-essential bash-completion git nano
 
 RUN useradd --create-home --groups sudo --shell /bin/bash developer \

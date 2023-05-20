@@ -8,7 +8,6 @@
             "BASE_VERSION": "20.04"
         }
     },
-    "postAttachCommand": "pipenv shell",
     "workspaceFolder": "/home/developer/workspace/",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/developer/workspace,type=bind,consistency=cached",
     "customizations": {
