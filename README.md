@@ -14,7 +14,7 @@ code . &
 
 Rename the project name in `./devcontainer/devcontainer.json`. Press `Ctrl+Shift+P` and enter `Dev Containter: Rebuild and Reopen in Container` and start building.
 
-After building the project activate project's virtualenv with
+After building the project, open a new terminal and activate project's virtualenv with
 
 ```bash
 pipenv shell
