@@ -3,7 +3,13 @@ ARG BASE_VERSION
 
 FROM ${BASE_IMAGE}:${BASE_VERSION} AS development
 
-RUN apt update && apt dist-upgrade -y && apt install -y sudo build-essential bash-completion git nano wget
+RUN apt update && apt dist-upgrade -y && DEBIAN_FRONTEND=noninteractive apt install -y \
+    sudo \
+    build-essential \
+    bash-completion \
+    git \
+    nano \
+    wget
 
 RUN useradd --create-home --groups sudo --shell /bin/bash developer \
     --uid 1002 --user-group \
