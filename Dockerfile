@@ -11,8 +11,6 @@ RUN useradd --create-home --groups sudo --shell /bin/bash developer \
     && echo "developer ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer \
     && chmod 600 /etc/sudoers.d/developer
 
-# RUN python3 -m pip install --no-cache-dir --upgrade pipenv
-
 USER developer
 RUN mkdir /home/developer/workspace
 WORKDIR /home/developer/workspace
