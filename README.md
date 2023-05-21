@@ -1,4 +1,4 @@
-# Hyperion
+# Hyperion - Containerized Development Template for VS Code
 
 A template repository featuring a containerized development environment utilizing the Ubuntu 20.04 image, designed for machine learning development with Python. The environment is set up using the [.devcontainer configuration](https://code.visualstudio.com/docs/devcontainers/containers) for seamless integration with VS Code.
 
