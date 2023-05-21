@@ -4,6 +4,7 @@ requests~=2.28.2
 markdown~=3.4.3
 pickleshare~=0.7.5
 black~=23.1.0
+numpy~=1.24.0
 scipy~=1.10.1
 matplotlib~=3.6.2
 seaborn~=0.12.2
@@ -12,12 +13,14 @@ networkx~=2.8.8
 tqdm~=4.64.1
 colorama~=0.3.7
 simplejson~=3.16.0
-pandas~=1.5.3
+pandas~=2.0.1
 PyYAML~=6.0
 Werkzeug~=2.2.3
 moviepy~=1.0.3
 cffi~=1.15.1
+shapely~=2.0.1
 plotly~=5.14.1
+celery~=5.2.7
 
 # ml-tools
 protobuf~=3.19.5     # to avoid dep conflict with tensorboard & googleapis-common-protos
@@ -27,9 +30,9 @@ optuna~=3.1.1
 jaxlib==0.4.10
 jax==0.4.10
 # jax[cuda12_pip]==0.4.6 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-torch==2.0.1
-torchvision~=0.15.2
-torchtext==0.15.2
+torch==2.0.0
+torchvision~=0.15.1
+torchtext==0.15.1
 pytorch-lightning~=1.9.3
 lightning~=2.0.2
 tensorboardX~=2.5.1
@@ -39,6 +42,8 @@ pytorch-ignite~=0.4.12
 opencv-python~=4.7.0.72
 spacy~=3.5.3
 jupyterlab~=4.0.0
+huggingface-hub~=0.14.1
+xformers==0.0.19
 
 # rl-tools
 autorom~=0.4.2
