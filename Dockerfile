@@ -1,7 +1,4 @@
-ARG BASE_IMAGE
-ARG BASE_VERSION
-
-FROM ${BASE_IMAGE}:${BASE_VERSION} AS development
+FROM ubuntu:20.04 AS development
 
 RUN apt update && apt dist-upgrade -y && DEBIAN_FRONTEND=noninteractive apt install -y \
     sudo \
@@ -10,7 +7,13 @@ RUN apt update && apt dist-upgrade -y && DEBIAN_FRONTEND=noninteractive apt inst
     git \
     nano \
     wget \
-    software-properties-common
+    software-properties-common \
+    python3 \
+    python3-pip \
+    cython3 \
+    python3-ipython \ 
+    htop \
+    
 
 RUN useradd --create-home --groups sudo --shell /bin/bash developer \
     --uid 1002 --user-group \
@@ -22,6 +25,4 @@ USER developer
 RUN mkdir /home/developer/workspace
 WORKDIR /home/developer/workspace
 
-COPY --chown=developer:developer . ./
-RUN sudo ./install.sh 
-RUN pipenv sync
+
